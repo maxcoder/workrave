@@ -2,6 +2,7 @@
 # Copyright (C) 2002, 2003, 2004 Rob Caelers & Raymond Penners
 # This file is distributed under the same license as the Workrave package.
 # Enver ALTIN <ealtin@parkyeri.com>, 2006.
+# Selim Şumlu <selim@sum.lu>, 2014 update
 # , fuzzy
 #
 #
@@ -10,13 +11,14 @@ msgstr ""
 "Project-Id-Version: Workrave 1.8.3\n"
 "Report-Msgid-Bugs-To: i18n@workrave.org\n"
 "POT-Creation-Date: 2013-05-25 20:31+0200\n"
-"PO-Revision-Date: 2011-02-16 19:50+0100\n"
-"Last-Translator: Enver ALTIN <ealtin@parkyeri.com>\n"
+"PO-Revision-Date: 2014-06-06 09:47+0200\n"
+"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: ../backend/src/DistributionSocketLink.cc:131
 #, fuzzy, c-format
@@ -244,7 +246,7 @@ msgstr "_Günlüğü göster"
 #: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:130
 #: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:120
 msgid "Reading mode"
-msgstr ""
+msgstr "Okuma kipi"
 
 #: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:15
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:621
@@ -285,35 +287,30 @@ msgstr ""
 
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:657
 #: ../frontend/gtkmm/src/MainGtkMenu.cc:198
-#, fuzzy
 msgid "_About"
-msgstr "_Hakkında..."
+msgstr "_Hakkında"
 
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:668
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:196
-#, fuzzy
 msgid "Show log"
-msgstr "_Günlüğü göster"
+msgstr "Günlüğü göster"
 
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:679
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:181
-#, fuzzy
 msgid "Normal"
-msgstr "_Normal"
+msgstr "Normal"
 
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:683
 #: ../frontend/gtkmm/src/GUI.cc:1498
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:183
-#, fuzzy
 msgid "Suspended"
-msgstr "_Duraklat"
+msgstr "Duraklat"
 
 #: ../frontend/applets/gnome3/src/WorkraveApplet.c:687
 #: ../frontend/gtkmm/src/GUI.cc:1502
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:185
-#, fuzzy
 msgid "Quiet"
-msgstr "_Rahatsız etme"
+msgstr "Sessiz"
 
 #: ../frontend/common/src/SoundPlayer.cc:80
 msgid "Break prompt"
@@ -352,16 +349,15 @@ msgstr "Alıştırma bitti"
 
 #: ../frontend/common/src/SoundPlayer.cc:129
 msgid "Exercises ended"
-msgstr "Alıştırma hareketleri bitti"
+msgstr "Alıştırmalar bitti"
 
 #: ../frontend/common/src/SoundPlayer.cc:135
-#, fuzzy
 msgid "Exercise change"
-msgstr "Alıştırma bitti"
+msgstr "Alıştırma değişikliği"
 
 #: ../frontend/common/src/SoundPlayer.cc:606
 msgid "Custom"
-msgstr ""
+msgstr "Özel"
 
 #: ../frontend/common/src/Text.cc:78
 #, c-format
@@ -384,9 +380,8 @@ msgid "_Lock"
 msgstr "_Kilitle"
 
 #: ../frontend/gtkmm/src/BreakWindow.cc:337
-#, fuzzy
 msgid "Shut _down"
-msgstr "Kapat"
+msgstr "_Kapat"
 
 #: ../frontend/gtkmm/src/BreakWindow.cc:358
 #, fuzzy
@@ -415,9 +410,8 @@ msgid ""
 msgstr ""
 
 #: ../frontend/gtkmm/src/GUI.cc:833 ../frontend/gtkmm/src/GUI.cc:948
-#, fuzzy
 msgid "Workrave failed to start"
-msgstr "Workrave panel takısı"
+msgstr "Workrave başlatılamadı"
 
 #: ../frontend/gtkmm/src/GUI.cc:835
 msgid "Is Workrave already running?"
@@ -459,15 +453,13 @@ msgid "Rest break"
 msgstr "Dinlenme molası"
 
 #: ../frontend/gtkmm/src/GUI.cc:1498 ../frontend/gtkmm/src/GUI.cc:1502
-#, fuzzy
 msgid "Mode: "
-msgstr "Çalış_ma biçimi"
+msgstr "Kip:"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:175
 #: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:112
-#, fuzzy
 msgid "Open"
-msgstr "_Aç"
+msgstr "Aç"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:176
 #: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:113
@@ -486,9 +478,8 @@ msgstr "Alıştırmalar"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:179
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:189
-#, fuzzy
 msgid "Mode"
-msgstr "Çalış_ma biçimi"
+msgstr "Kip"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:192
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:199
@@ -497,19 +488,16 @@ msgid "Network"
 msgstr "Ağ"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:193
-#, fuzzy
 msgid "Connect"
-msgstr "_Bağlan"
+msgstr "Bağlan"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:194
-#, fuzzy
 msgid "Disconnect"
-msgstr "Bağlantıyı _kes"
+msgstr "Bağlantıyı kes"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:195
-#, fuzzy
 msgid "Reconnect"
-msgstr "_Yeniden bağlan"
+msgstr "Yeniden bağlan"
 
 #: ../frontend/gtkmm/src/GenericDBusApplet.cc:206
 #: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:131
@@ -552,17 +540,16 @@ msgid "Show _log"
 msgstr "_Günlüğü göster"
 
 #: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:133
-#, fuzzy
 msgid "Quit"
-msgstr "Çı_k"
+msgstr "Çık"
 
 #: ../frontend/gtkmm/src/MainGtkMenu.cc:153
 msgid "_Reading mode"
-msgstr ""
+msgstr "_Okuma modu"
 
 #: ../frontend/gtkmm/src/MicroBreakWindow.cc:239
 msgid "Please relax for a few seconds"
-msgstr "Birkaç saniye için rahatlayın"
+msgstr "Birkaç saniye rahatlayın"
 
 #: ../frontend/gtkmm/src/MicroBreakWindow.cc:246
 #, c-format
@@ -590,9 +577,8 @@ msgid "General"
 msgstr "Genel"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:97
-#, fuzzy
 msgid "Sounds"
-msgstr "Ses:"
+msgstr "Sesler"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:101
 msgid "Status Window"
@@ -640,29 +626,28 @@ msgstr "Engelleme kipi:"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:211
 msgid "System default"
-msgstr ""
+msgstr "Sistem varsayılanı"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:255
 msgid "(font not available)"
-msgstr ""
+msgstr "(yazı tipi mevcut değil)"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:280
 msgid "Language:"
-msgstr ""
+msgstr "Dil:"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:284
 msgid "Start Workrave on Windows startup"
-msgstr ""
+msgstr "Workrave'i Windows açılışında başlat"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:296
 msgid "Show system tray icon"
-msgstr ""
+msgstr "Sistem tepsisinde simge göster"
 
 #. Options
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:314
-#, fuzzy
 msgid "Sound Options"
-msgstr "Seçenekler"
+msgstr "Ses Seçenekleri"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:320
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:324
@@ -681,50 +666,46 @@ msgstr "Ses üretmek için dahili hoparlörü kullan"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:351
 msgid "Volume:"
-msgstr ""
+msgstr "Ses:"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:354
 msgid "Sound:"
 msgstr "Ses:"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:360
-#, fuzzy
 msgid "Mute sounds during rest break and daily limit"
-msgstr ""
-"Dinlenme molası ve günlük sınır zamanlayıcılarını tek kutuda sırayla göster"
+msgstr "Dinlenme molası ve günlük sınırda ses çıkarma"
 
 #. Sound themes
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:370
 msgid "Sound Events"
-msgstr ""
+msgstr "Ses olayları"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:378
-#, fuzzy
 msgid "Sound Theme:"
-msgstr "Ses:"
+msgstr "Ses Teması:"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:401
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:419
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:449
 msgid "Play"
-msgstr ""
+msgstr "Oynat"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:406
 msgid "Event"
-msgstr ""
+msgstr "Olay"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:422
-#, fuzzy
 msgid "Choose a sound"
-msgstr "Ses çıkarma"
+msgstr "Ses seçin"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:434
 msgid "Wavefiles"
-msgstr ""
+msgstr "Wave dosyaları"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:530
 msgid "Use alternate monitor"
-msgstr ""
+msgstr "Alternatif monitörü kullan"
 
 #: ../frontend/gtkmm/src/PreferencesDialog.cc:536
 msgid ""
@@ -762,7 +743,7 @@ msgstr "%s sonra sessiz olacak."
 #: ../frontend/gtkmm/src/RestBreakWindow.cc:177
 #, c-format
 msgid "Rest break for %s"
-msgstr "%s için dinlenme molası"
+msgstr "%s dinlenme molası"
 
 #: ../frontend/gtkmm/src/RestBreakWindow.cc:219
 #, fuzzy
@@ -975,7 +956,7 @@ msgstr "Şifre:"
 
 #: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:111
 msgid "Allow incoming connections"
-msgstr ""
+msgstr "Gelen bağlantılara izin ver"
 
 #: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:129
 msgid "Server settings"
@@ -1171,23 +1152,20 @@ msgstr "Alıştırma öğretici"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:297
 msgid "Previous exercise"
-msgstr ""
+msgstr "Önceki alıştırma"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:298
-#, fuzzy
 msgid "Next exercise"
-msgstr "Alıştırma sayısı:"
+msgstr "Sonraki alıştırma"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:299
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:488
-#, fuzzy
 msgid "Pause exercises"
-msgstr "Alıştırma sayısı:"
+msgstr "Alıştırmaları duraklat"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:303
-#, fuzzy
 msgid "End exercises"
-msgstr "Alıştırmalar"
+msgstr "Alıştırmaları bitir"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:481
 msgid "Resume"
@@ -1198,9 +1176,8 @@ msgid "Pause"
 msgstr "Duraklat"
 
 #: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:486
-#, fuzzy
 msgid "Resume exercises"
-msgstr "Alıştırma sayısı:"
+msgstr "Alıştırmalara deva et"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:146
 msgid "Browse history"
@@ -1209,7 +1186,7 @@ msgstr "Gözatma geçmişi"
 #. Delete button
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:151
 msgid "Delete all statistics history"
-msgstr ""
+msgstr "Tüm istatistik geçmişini sil"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:158
 msgid "Date:"
@@ -1344,15 +1321,15 @@ msgstr "%2$s'den %3$s'ye kadar %1$s."
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:602
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:606
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:603
 msgid "You have chosen to delete your statistics history. Continue?"
-msgstr ""
+msgstr "İstatistik geçmişinizi silmeyi seçtiğiniz. Devam edilsin mi?"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:618
 msgid "Files deleted!"
-msgstr ""
+msgstr "Dosyalar silindi!"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:619
 msgid "The files containing your statistics history have been deleted."
@@ -1360,11 +1337,11 @@ msgstr ""
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:622
 msgid "Info"
-msgstr ""
+msgstr "Bilgi"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:628
 msgid "File deletion failed!"
-msgstr ""
+msgstr "Dosya silme başarısız oldu!"
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:629
 msgid ""
@@ -1373,7 +1350,7 @@ msgstr ""
 
 #: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:632
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #~ msgid "Orientation"
 #~ msgstr "Yönelim"
